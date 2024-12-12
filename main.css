@@ -1,0 +1,63 @@
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.introduction{
+  width: 100%;
+  height: 120px;
+  background-color: yellowgreen;
+  margin-top: -20px;
+}
+.introduction h2 {
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+.header{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+  height: 24px;
+  text-align: center;
+
+}
+.header a {
+  color: white;
+  text-decoration: none;
+
+}
+.about-me{
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.input-form{
+  width: 100%;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.button{
+  width: 100%;
+}
+
+
+
+.footer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  margin-top: 60px;
+  background-color: black;
+}
+
+.footer p {
+  color: white;
+
+justify-content: center;
+}
